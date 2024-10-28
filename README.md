@@ -14,4 +14,4 @@
    - Una vez registrado, ve a la sección **Email Testing > Inboxes** y crea una nueva bandeja de entrada (**Inbox**).
    - Después, desplázate un poco hacia abajo y elige **Node.js** como lenguaje de programación.
    - Copia el código que te proporciona Mailtrap y pégalo en el archivo `helpers/email.js` dentro del proyecto, reemplazando los valores con los de Mailtrap.
-   - Una vez que inicies el proyecto, podrás ver los correos en la misma pestaña de **Email Testing** en Mailtrap.
+   - Una vez que inicies el proyecto y empieces a crear usuarios en esa misma pestaña podras ver los correos electronicos que te llegaran.
