@@ -1,11 +1,17 @@
-* IMPORTATE *
+## Importante
 
-** Debe serguir estos pasos para poder ejecutar bien el proyecto, es sencillo **
+**Debes seguir estos pasos para ejecutar correctamente el proyecto. Es sencillo.**
 
-- 1 En las variables de entorno(En el archivo .env), donde dice: MONGODB=, debes tener una cuenta en mongoatlas y crearte un cluster, ese y poner tus identificadores ej: 
-    mongodb+srv://usuario:contraseña@cluster0.oze3z.mongodb.net/
+1. **Configura las variables de entorno (.env):**  
+   En el archivo `.env`, donde dice `MONGODB=`, necesitas tener una cuenta en MongoDB Atlas y crear un cluster. Ingresa allí tus credenciales en este formato:
+   ```plaintext
+   MONGODB=mongodb+srv://usuario:contraseña@cluster0.oze3z.mongodb.net/
 
-- 2 Debes crearte una cuenta en mailtrap: https://mailtrap.io/.
-    Una vez creada en la pagina debes ir a: Email Testing/Inboxes, ahi te creas un Inboxes.
-    Una vez creado vas a scrollear un poco y vas a elegir el lenguaje de programacion Node.js, el pequeño codigo de programacion que te ofrece es el que vas a copiar y en el proyecto en la carpeta helpers/email.js ahi vas a reemplazar los valores que te ofrece mailtrap.
-    Una vez que empieces a usar el proyecto en la misma pestaña te llegaran los correos.
+2. **Configura una cuenta en Mailtrap:**
+   
+   En este paso, debes hacer lo siguiente:
+   - Regístrate en [Mailtrap](https://mailtrap.io/).
+   - Una vez registrado, ve a la sección **Email Testing > Inboxes** y crea una nueva bandeja de entrada (**Inbox**).
+   - Después, desplázate un poco hacia abajo y elige **Node.js** como lenguaje de programación.
+   - Copia el código que te proporciona Mailtrap y pégalo en el archivo `helpers/email.js` dentro del proyecto, reemplazando los valores con los de Mailtrap.
+   - Una vez que inicies el proyecto, podrás ver los correos en la misma pestaña de **Email Testing** en Mailtrap.
